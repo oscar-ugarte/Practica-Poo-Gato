@@ -1,0 +1,50 @@
+body
+{
+    background-color: #f5f5f5;
+}
+
+.titulo
+{
+    text-align: center;
+    text-shadow: 2px 2px 2px #222222;
+}
+
+.pie
+{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.card
+{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contenedor
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foto
+{
+    padding: 8px;
+}
+
+#nombre
+{
+    text-align: center;
+}
+
+.card-text
+{
+   font-size: 14px;
+}
+
+.card-text::after
+{
+    content: ".";
+}
