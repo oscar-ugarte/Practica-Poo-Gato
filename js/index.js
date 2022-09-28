@@ -29,7 +29,8 @@ class Animal
 function mostrarDatosGato( gato )
 {
     console.log(gato);
-    foto.setAttribute("src", gato.foto );
+    //foto.setAttribute("src", gato.foto );
+    foto.src = gato.foto;
     nombre.innerHTML = gato.nombre;
     dueña.innerHTML += gato.dueña;
     raza.innerHTML += gato.raza;
@@ -40,6 +41,6 @@ function mostrarDatosGato( gato )
     vacunas.innerHTML += gato.vacunas;
 }
 
-let china = new Animal( "../imagen/china.png" ,"China", "Gisela Flores", "Atigrado", "Desconocida", "Acompañar a su dueña en las clases" ,"Pescado", "2 al mes","Esquema completo" );
+let china = new Animal( "./imagen/china.png" ,"China", "Gisela Flores", "Atigrado", "Desconocida", "Acompañar a su dueña en las clases" ,"Pescado", "2 al mes","Esquema completo" );
 
 mostrarDatosGato(china);
